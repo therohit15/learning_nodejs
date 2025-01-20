@@ -1,0 +1,6 @@
+process.nextTick(cb);
+Promise.resolve(cb);
+setTimeout(cb,0);
+fs.readFile("./file.txt",cb);
+https.get("url",cb);
+setImmediate(cb);
